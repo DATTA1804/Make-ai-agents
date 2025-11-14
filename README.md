@@ -37,18 +37,31 @@ Output returns clean JSON for easy downstream usage.
 ## 🧩 JSON Request Body (Used in MakeAI → HTTP Module)
 {
   "prompt": "Convert the following article into a funny meme. Extract the key idea, exaggerate it humorously, and output ONLY meme text in two parts: 'top_text' and 'bottom_text'.\n\nArticle:\n{{article}}\n\nMake it short, relatable, and viral.",
+  
   "temperature": 0.7,
+  
   "max_tokens": 200,
+  
   "response_format": {
+  
     "type": "json_schema",
+    
     "json_schema": {
+    
       "name": "meme_output",
+      
       "schema": {
+      
         "type": "object",
+        
         "properties": {
+        
           "top_text": { "type": "string" },
+          
           "bottom_text": { "type": "string" }
+          
         },
+        
         "required": ["top_text", "bottom_text"]
       }
     }
@@ -58,14 +71,6 @@ Output returns clean JSON for easy downstream usage.
 ---
 
 
-
-## 📤 Example Output
-{
-  "top_text": "When the article explains everything in 4000 words",
-  "bottom_text": "But your brain only needed one meme"
-}
-
----
 
 
 ## 🏗️ Use Cases

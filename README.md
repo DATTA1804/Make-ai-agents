@@ -5,7 +5,7 @@ It extracts the core idea from long content, compresses it into humor, and retur
 
 ---
 
-! [image alt](https://github.com/DATTA1804/Make-ai-agents/blob/fd73b52edc25b3fff5583a0b1881c33bb35791f0/Screenshot%202025-11-14%20152625.png)
+![image alt](https://github.com/DATTA1804/Make-ai-agents/blob/fd73b52edc25b3fff5583a0b1881c33bb35791f0/Screenshot%202025-11-14%20152625.png)
 
 
 ## 🚀 Features

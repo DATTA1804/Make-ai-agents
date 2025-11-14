@@ -1,4 +1,4 @@
-## 🧠 Article-to-Meme Generator (MakeAI + HTTP API)
+## 🧠 Article-to-Meme Generator (MakeAI + HTTP API + Json Schema + webhooks)
 
 This project automatically converts any article, blog post, or text content into a funny, shareable meme using MakeAI’s LLM capabilities.
 It extracts the core idea from long content, compresses it into humor, and returns structured meme text in JSON format—perfect for automation, social media bots, or meme-based content creation.
